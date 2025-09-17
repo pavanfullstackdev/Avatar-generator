@@ -1,4 +1,3 @@
-e
 
 > **Avatar Generator**  
 > This project is built by Pavan Birari.
