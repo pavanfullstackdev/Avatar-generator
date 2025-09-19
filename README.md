@@ -1,14 +1,70 @@
+# 🎭 Avatar Generator
 
-> **Avatar Generator**  
-> This project is built by Pavan Birari.
+A simple React + Vite app that generates random avatars using the **DiceBear API**, with features like favorites, download, and copy link.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+## 🚀 Features
+- 🎨 Generate avatars from multiple categories (Illustration, Adventurer, Sketch, Robots, Pixel, Male, Female).
+- ❤️ Save your favorite avatars (stored in **localStorage**).
+- 📥 Download generated avatars as **SVG/JPG**.
+- 📋 Copy avatar URL to clipboard.
+- ⚡ Smooth UI with **TailwindCSS** + **Animate.css**.
+- 💾 Persistent favorites (local storage).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
+- [React 19](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [Animate.css](https://animate.style/)
+- [Remix Icon](https://remixicon.com/)
+- [DiceBear Avatars API](https://www.dicebear.com/)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📦 Installation
+
+Clone the repo:
+```bash
+git clone https://github.com/your-username/avatar-generator.git
+cd avatar-generator
+```
+
+Install dependencies:
+```bash
+npm install
+```
+
+Run locally:
+```bash
+npm run dev
+```
+
+Build for production:
+```bash
+npm run build
+```
+
+Preview production build:
+```bash
+npm run preview
+```
+---
+
+## ⚡ Usage
+1. Select an avatar category from the dropdown.
+2. Click **Generate** to create a new avatar.
+3. Use:
+   - **Download** → Save avatar as `.svg` or `.jpg`.
+   - **Copy** → Copy URL to clipboard.
+   - **Favorite** → Save to local storage.
+
+Favorites are displayed under the dropdown for quick access.
+
+---
+
+## 👨‍💻 Author
+**Pavan Birari**  
+Frontend Developer | MERN Stack Devloper  
