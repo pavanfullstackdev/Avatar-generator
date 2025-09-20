@@ -1,7 +1,8 @@
 # 🎭 Avatar Generator
 
 A simple React + Vite app that generates random avatars using the **DiceBear API**, with features like favorites, download, and copy link.
-
+# Live Demo
+https://avatargeneratorcool.netlify.app/
 ---
 
 ## 🚀 Features
